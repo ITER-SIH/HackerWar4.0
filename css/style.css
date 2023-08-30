@@ -41,7 +41,7 @@ body {
     }
 
     #desc {
-        color: white;
+        color: black;
         position: absolute;
         background-color: #7DC471;
         height: auto;
@@ -123,7 +123,7 @@ body {
 
 
     #about {
-        color: white;
+        color: black;
         padding: 5px;
         position: absolute;
         background-color: #7DC471;
@@ -155,7 +155,7 @@ body {
 
     #img-mid {
         width: 100%;
-        transform: rotate(270deg) !important;
+        transform: rotate(-45deg) !important;
     }
 
     #rightPs {
@@ -181,7 +181,7 @@ body {
     }
 
     #details {
-        color: white;
+        color: black;
         position: absolute;
         background-color: #7DC471;
         height: auto;
@@ -221,11 +221,10 @@ body {
     }
 
     #event {
-        color: white;
+        color: black;
         margin-left: 35vw;
         margin-right: 35vw;
         position: absolute;
-
         background-color: #7DC471;
         height: auto;
         width: 30vw;
@@ -242,6 +241,10 @@ body {
 
     .coming-soon {
         font-size: 1.4em;
+    }
+
+    #subbut {
+        padding-top: 12px;
     }
 
 }
@@ -263,7 +266,7 @@ body {
     }
 
     #desc {
-        color: white;
+        color: black;
         margin-left: 10vw;
         position: absolute;
         background-color: #7DC471;
@@ -332,7 +335,7 @@ body {
     }
 
     #about {
-        color: white;
+        color: black;
         margin-left: 10vw;
         position: absolute;
         background-color: #7DC471;
@@ -399,7 +402,7 @@ body {
     }
 
     #details {
-        color: white;
+        color: black;
         margin-left: 68vw;
         position: absolute;
         padding: 2px 2px 5px 2px;
@@ -435,7 +438,7 @@ body {
     }
 
     #event {
-        color: white;
+        color: black;
         margin-left: 78vw;
         position: absolute;
         background-color: #7DC471;

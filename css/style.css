@@ -1,57 +1,49 @@
 body {
     margin: 0;
+    background-color: f8f9fa;
 }
-#fp-nav ul li a span, .fp-slidesNav ul li a span{
-    background-color: rgb(48,125,255)!important;
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+    background-color: #042654 !important;
 }
 
 #clicks {
     cursor: pointer;
 }
+
 @media (max-width : 800px) {
-    .animated {
-  -o-transition-property: none !important;
-  -moz-transition-property: none !important;
-  -ms-transition-property: none !important;
-  -webkit-transition-property: none !important;
-  transition-property: none !important;
-  -o-transform: none !important;
-  -moz-transform: none !important;
-  -ms-transform: none !important;
-  -webkit-transform: none !important;
-  transform: none !important;
-  -webkit-animation: none !important;
-  -moz-animation: none !important;
-  -o-animation: none !important;
-  -ms-animation: none !important;
-  animation: none !important;
- }
-    #fp-nav ul li a span, .fp-slidesNav ul li a span{
+
+    #fp-nav ul li a span,
+    .fp-slidesNav ul li a span {
         display: none;
     }
+
     #rightAbt {
         width: 100vw;
         height: 10vh;
         max-height: 80px;
-        padding : 0 !important;
+        padding: 0 !important;
     }
 
     #leftAbt {
-        width : 100vw;
+        width: 100vw;
         display: block;
-        height : 90vh;
-        padding : 0 !important;
+        height: 90vh;
+        padding: 0 !important;
     }
+
     #logoAbt {
         height: 20vw;
         opacity: 0.3;
-        width : auto;
-        margin-top : 2vh;
+        width: auto;
+        margin-top: 2vh;
     }
+
     #desc {
         color: white;
         position: absolute;
-        background-color: rgba(48,125,255,1);
+        background-color: #7DC471;
         height: auto;
         width: 50vw;
         text-align: center;
@@ -59,17 +51,19 @@ body {
         padding: 5px 5px 5px 5px;
         margin-left: 25vw;
         margin-right: 25vw;
-        margin-top : 8vh;
-        display: flow ;
+        margin-top: 8vh;
+        display: flow;
     }
+
     p {
         margin-top: 8vh;
-        margin-left : 10vw;
-        margin-right : 10vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
         font-size: 1.0em;
     }
+
     .hideen {
-        display : none;
+        display: none;
     }
 
     #leftTr {
@@ -118,9 +112,11 @@ body {
         background: rgb(81, 213, 191);
         display: inline-block;
     }
+
     .cardLast {
         margin-bottom: 6vh;
     }
+
     .X {
         margin-top: 10vh;
     }
@@ -130,63 +126,64 @@ body {
         color: white;
         padding: 5px;
         position: absolute;
-        background-color: rgba(48,125,255,1);
+        background-color: #7DC471;
         height: auto;
         width: 35vw;
         text-align: center;
         font-size: 1.2em;
         margin-top: 7vh;
         margin-left: 32.5vw;
-        margin-right : 32.5vw;
+        margin-right: 32.5vw;
     }
 
-    .para
-    {
-        font:bold;
-        font-size: large;
+    #first {
+        display: none;
     }
 
-    #first{
-        display : none;
-    }
     #main {
-        width : 100vw;
+        width: 100vw;
     }
+
     #second {
-        display : none;
+        display: none;
     }
+
     #top-img {
-        width: 80vw;
+        width: 90vw;
         margin: auto auto;
     }
-    #img-mid {
-        width : 40vh ;
-        border: 2px solid black;
 
+    #img-mid {
+        width: 100%;
+        transform: rotate(270deg) !important;
     }
+
     #rightPs {
-        width : 100vw;
+        width: 100vw;
         height: 10vh;
         max-height: 80px;
         padding: 0px !important;
     }
+
     #leftPs {
-        width : 100vw;
+        width: 100vw;
         display: block;
         height: 90vh;
         padding: 0 !important;
     }
+
     #logoPs {
         height: 20vw;
         opacity: 0.3;
-        width : auto;
+        width: auto;
         float: right;
-        margin-top : 2vh;
+        margin-top: 2vh;
     }
+
     #details {
         color: white;
         position: absolute;
-        background-color: rgba(48,125,255,1);
+        background-color: #7DC471;
         height: auto;
         margin-left: 25vw;
         margin-right: 25vw;
@@ -197,35 +194,39 @@ body {
         display: flow;
         margin-top: 7.5vh;
     }
+
     #rightDet {
-        width : 100vw;
+        width: 100vw;
         height: 10vh;
-        max-height : 80px;
+        max-height: 80px;
         padding: 0px !important;
     }
+
     #leftDet {
-        width : 100vw;
-        height : 90vh;
+        width: 100vw;
+        height: 90vh;
         display: block;
         font-size: 1em;
         padding-right: 8vw;
 
 
     }
+
     #logoDet {
         height: 20vw;
         opacity: 0.3;
-        width : auto;
+        width: auto;
         float: right;
-        margin-top : 2vh;
+        margin-top: 2vh;
     }
+
     #event {
         color: white;
-        margin-left : 35vw;
-        margin-right : 35vw;
+        margin-left: 35vw;
+        margin-right: 35vw;
         position: absolute;
 
-        background-color: rgba(48,125,255,1);
+        background-color: #7DC471;
         height: auto;
         width: 30vw;
         padding: 5px 5px 5px 5px;
@@ -236,32 +237,36 @@ body {
     }
 
     #cont {
-        margin-top : 14vh;
+        margin-top: 14vh;
     }
-    .coming-soon{
+
+    .coming-soon {
         font-size: 1.4em;
     }
 
 }
+
 @media (min-width : 801px) {
     #logoAbt {
         position: absolute;
         height: 28vw;
         max-height: 180px;
-        width : auto;
+        width: auto;
         opacity: 0.4;
         margin-left: -6vw;
-        margin-top : 65vh;
+        margin-top: 65vh;
         display: flex;
     }
-    .coming-soon{
+
+    .coming-soon {
         font-size: 4em;
     }
+
     #desc {
         color: white;
         margin-left: 10vw;
         position: absolute;
-        background-color: rgba(48,125,255,1);
+        background-color: #7DC471;
         height: auto;
         width: 20vw;
         padding: 5px 0 5px 0;
@@ -270,60 +275,67 @@ body {
         margin-top: 10vh;
         display: inherit;
     }
+
     #rightAbt {
         height: 100vh;
-        padding : 0 !important;
-    }
-    #leftAbt {
-        height : 100vh ;
         padding: 0 !important;
     }
+
+    #leftAbt {
+        height: 100vh;
+        padding: 0 !important;
+    }
+
     p {
         margin-top: 25vh;
-        margin-left : 8vw;
-        margin-right : 10vw;
+        margin-left: 8vw;
+        margin-right: 10vw;
         font-size: 1.6em;
-        line-height : 1.5;
+        line-height: 1.5;
     }
+
     #logoTr {
         position: absolute;
         height: 28vh;
         max-height: 180px;
-        width : auto;
+        width: auto;
         opacity: 0.4;
-        margin-left : -6vw;
-        margin-top : 65vh;
+        margin-left: -6vw;
+        margin-top: 65vh;
         display: flex;
     }
+
     .cardTop {
         height: 14vw;
-        width : 14vw;
-        margin : 22vh 2vw 2vh 1vw;
+        width: 14vw;
+        margin: 22vh 2vw 2vh 1vw;
         min-width: 120px;
-        min-height : 120px;
+        min-height: 120px;
         max-width: 210px;
-        max-height : 210px;
+        max-height: 210px;
         border-radius: 15px;
-        background: rgb(81,213,191);
+        background: rgb(81, 213, 191);
         display: inline-block;
     }
+
     .cardBottom {
         height: 14vw;
-        width : 14vw;
-        margin : 10vh 2vw 2vh 1vw;
+        width: 14vw;
+        margin: 10vh 2vw 2vh 1vw;
         min-width: 120px;
-        min-height : 120px;
+        min-height: 120px;
         max-width: 210px;
-        max-height : 210px;
+        max-height: 210px;
         border-radius: 15px;
-        background: rgb(81,213,191);
+        background: rgb(81, 213, 191);
         display: inline-block;
     }
+
     #about {
         color: white;
         margin-left: 10vw;
         position: absolute;
-        background-color: rgba(48,125,255,1);
+        background-color: #7DC471;
         height: auto;
         width: 15vw;
         text-align: center;
@@ -331,10 +343,12 @@ body {
         margin-top: 10vh;
         display: inherit;
     }
+
     #rightTr {
         height: 100vh;
         padding-left: 8vw;
     }
+
     #leftTr {
         height: 90vh;
         padding: 0 !important;
@@ -342,48 +356,54 @@ body {
 
     #first {
         display: inline-block;
-        width : 18vw;
+        width: 18vw;
     }
+
     #main {
-        width : 60vw;
+        width: 60vw;
     }
+
     #second {
         display: inline-block;
-        width : 18vw;
+        width: 18vw;
     }
+
     #top-img {
-        width: 30vw;
+        width: 50vw;
     }
+
     #img-mid {
         height: auto;
-        width : 45vw;
+        width: 60vw;
     }
 
     #leftPs {
         height: 100vh;
         width: 82vw;
     }
+
     #rightPs {
         height: 100vh;
-        width : 18vw;
+        width: 18vw;
     }
 
     #logoPs {
         position: absolute;
         height: 28vw;
         max-height: 180px;
-        width : auto;
+        width: auto;
         opacity: 0.4;
         margin-left: 8vw;
-        margin-top : 65vh;
+        margin-top: 65vh;
         display: flex;
     }
+
     #details {
         color: white;
         margin-left: 68vw;
         position: absolute;
         padding: 2px 2px 5px 2px;
-        background-color: rgba(48,125,255,1);
+        background-color: #7DC471;
         height: auto;
         width: 25vw;
         text-align: center;
@@ -391,15 +411,18 @@ body {
         margin-top: 10vh;
         display: inherit;
     }
+
     #leftDet {
         font-size: 1em;
-        width : 82vw;
+        width: 82vw;
         height: 100vh;
     }
+
     #rightDet {
         height: 100vh;
         width: 18vw;
     }
+
     #logoDet {
         position: absolute;
         height: 28vw;
@@ -410,11 +433,12 @@ body {
         margin-top: 65vh;
         display: flex;
     }
+
     #event {
         color: white;
         margin-left: 78vw;
         position: absolute;
-        background-color: rgba(48,125,255,1);
+        background-color: #7DC471;
         height: auto;
         width: 12vw;
         text-align: center;

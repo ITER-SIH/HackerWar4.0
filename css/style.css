@@ -149,13 +149,13 @@ body {
     }
 
     #top-img {
-        width: 90vw;
+        width: 95vw;
         margin: auto auto;
     }
 
     #img-mid {
-        width: 100%;
-        transform: rotate(-45deg) !important;
+        width: 90%;
+        /* transform: rotate(-45deg) !important; */
     }
 
     #rightPs {
@@ -245,6 +245,10 @@ body {
 
     #subbut {
         padding-top: 12px;
+    }
+
+    #groupdiv {
+        height: 85vh;
     }
 
 }
@@ -372,12 +376,12 @@ body {
     }
 
     #top-img {
-        width: 50vw;
+        width: 60vw;
     }
 
     #img-mid {
         height: auto;
-        width: 60vw;
+        width: 35vw;
     }
 
     #leftPs {
@@ -452,6 +456,10 @@ body {
 
     #cont {
         margin-top: 20vh;
+    }
+
+    #groupdiv {
+        height: 100vh;
     }
 
 }

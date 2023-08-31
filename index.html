@@ -20,19 +20,23 @@
 
 <body style="font-family: 'Muli', sans-serif;">
     <div id="fullpage">
-        <!--home-->
+        <!--Home-->
         <div class="container-fluid section" data-anchor="one">
             <div class="row" style="word-spacing: -0.25em;">
                 <div id="first" style="height : 99vh; width : 19.9vw; ">
                 </div>
-                <div style="height: 99vh; display: inline-block;  background: url('Assets/SIH.png') center no-repeat fixed; background-size: contain;"
+                <div style="height: 99vh; display: inline-block; background: url('Assets/SIH.png') center no-repeat fixed; background-size: contain;"
                     id="main">
-                    <div style="position : absolute;  width: inherit;   margin:auto auto; margin-top: 2vh; ">
+                    <div style="position: absolute;  width: inherit; margin:auto auto; margin-top: 2vh; ">
                         <img id="top-img" src="Assets/Top-image.png"
                             style="object-fit: cover; margin: auto auto; display: block; ">
                     </div>
-                    <div style="position : absolute; display: flex; width: inherit; height: 100vh;">
+                    <div id="groupdiv" style="position : absolute; display: flex; width: inherit; ">
                         <img id="img-mid" src="Assets/Group 15.png" style="margin : auto;">
+                    </div>
+                    <div
+                        style="position: absolute; text-align: center; width: inherit; bottom:25vh; text-decoration: none">
+                        <h3>Institute-Level Hackathon, <br> Prerequisite for SIH2023 Participation.</h3>
                     </div>
                     <div
                         style="position: absolute; text-align: center; width: inherit; bottom:10vh; text-decoration: none">
@@ -107,7 +111,6 @@
                 <div id="details"> Guidelines </div>
             </div>
         </div>
-
         <!--Prizes-->
         <div class="container-fluid section " data-anchor="four">
             <div class="row" style="overflow-x: hidden; ">
@@ -132,7 +135,6 @@
                 <div id="about">Prizes</div>
             </div>
         </div>
-
         <!--details-->
         <div class="container-fluid section" style="overflow-x: hidden; overflow-y: hidden" data-anchor="five">
             <div class="row" style="width : 100vw;">
@@ -233,7 +235,6 @@
         });
         $.fn.fullpage.setAllowScrolling(true);
     </script>
-
 </body>
 
 </html>

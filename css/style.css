@@ -279,7 +279,7 @@ body {
         padding: 5px 0 5px 0;
         text-align: center;
         font-size: 2.2em;
-        margin-top: 10vh;
+        margin-top: 2vh;
         display: inherit;
     }
 
@@ -294,8 +294,8 @@ body {
     }
 
     p {
-        margin-top: 25vh;
-        margin-left: 8vw;
+        margin-top: 10vh;
+        margin-left: 4vw;
         margin-right: 10vw;
         font-size: 1.6em;
         line-height: 1.5;
@@ -347,7 +347,7 @@ body {
         width: 15vw;
         text-align: center;
         font-size: 2.2em;
-        margin-top: 10vh;
+        margin-top: 2vh;
         display: inherit;
     }
 
@@ -415,7 +415,7 @@ body {
         width: 25vw;
         text-align: center;
         font-size: 2.2em;
-        margin-top: 10vh;
+        margin-top: 2vh;
         display: inherit;
     }
 

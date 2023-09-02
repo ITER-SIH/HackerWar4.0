@@ -73,6 +73,24 @@ body {
 
 
 @media (max-width : 800px) {
+    .animated {
+        -o-transition-property: none !important;
+        -moz-transition-property: none !important;
+        -ms-transition-property: none !important;
+        -webkit-transition-property: none !important;
+        transition-property: none !important;
+        -o-transform: none !important;
+        -moz-transform: none !important;
+        -ms-transform: none !important;
+        -webkit-transform: none !important;
+        transform: none !important;
+        -webkit-animation: none !important;
+        -moz-animation: none !important;
+        -o-animation: none !important;
+        -ms-animation: none !important;
+        animation: none !important;
+       }
+       
 
     #fp-nav ul li a span,
     .fp-slidesNav ul li a span {
@@ -503,14 +521,14 @@ body {
 
     #event {
         color: black;
-        margin-left: 78vw;
+        margin-left: 76vw;
         position: absolute;
         background-color: #7DC471;
         height: auto;
         width: 12vw;
         text-align: center;
         font-size: 2.2em;
-        margin-top: 10vh;
+        margin-top: 2vh;
         display: inherit;
     }
 

@@ -143,6 +143,7 @@ body {
         height: auto;
         display: block;
         padding: 0 !important;
+        height:70vh;
     }
 
     #logoTr {
@@ -301,7 +302,7 @@ body {
     }
 
     #cont {
-        margin-top: 14vh;
+        margin-top: 10vh;
     }
 
     .coming-soon {
@@ -316,6 +317,9 @@ body {
         height: 67vh;
     }
 
+    ul{
+        margin-left: 3vh;
+    }
 }
 
 @media (min-width : 801px) {
@@ -336,7 +340,7 @@ body {
 
     #desc {
         color: black;
-        margin-left: 10vw;
+        margin-left: 7vw;
         position: absolute;
         background-color: #7DC471;
         height: auto;
@@ -344,24 +348,26 @@ body {
         padding: 5px 0 5px 0;
         text-align: center;
         font-size: 2.2em;
-        margin-top: 2vh;
+        margin-top: 1vh;
         display: inherit;
     }
 
     #rightAbt {
         height: 100vh;
-        padding: 0 !important;
+        /* padding: 0 !important; */
+        padding-right: 2vw;
     }
 
     #leftAbt {
         height: 100vh;
-        padding: 0 !important;
+        /* padding: 0 !important; */
+        padding-right: 2vw;
     }
 
     p {
-        margin-top: 10vh;
+        margin-top: 8vh;
         margin-left: 4vw;
-        margin-right: 10vw;
+        margin-right: 2vw;
         font-size: 1.6em;
         line-height: 1.5;
     }
@@ -412,13 +418,13 @@ body {
         width: 15vw;
         text-align: center;
         font-size: 2.2em;
-        margin-top: 2vh;
+        margin-top: 1vh;
         display: inherit;
     }
 
     #rightTr {
         height: 100vh;
-        padding-left: 8vw;
+        /* padding-left: 8vw; */
     }
 
     #leftTr {
@@ -480,7 +486,7 @@ body {
         width: 25vw;
         text-align: center;
         font-size: 2.2em;
-        margin-top: 2vh;
+        margin-top: 1vh;
         display: inherit;
     }
 
@@ -515,16 +521,21 @@ body {
         width: 12vw;
         text-align: center;
         font-size: 2.2em;
-        margin-top: 2vh;
+        margin-top: 1vh;
         display: inherit;
     }
 
     #cont {
-        margin-top: 20vh;
+        margin-top: 7vh;
     }
 
     #groupdiv {
         height: 75vh;
+    }
+
+    ul{
+        margin-left: 8vh;
+        font-size: 1.6em;
     }
 
 }
